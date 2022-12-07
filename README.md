@@ -16,7 +16,7 @@ If you want to train the model, images must be present in the test folder. I add
 To get an overview of the training, tensorboard can be activated. 
 Just cd into the code folder in terminal and enter "tensorboard --logdir logs".
 
-During training sample images will be saved into a subfolder of the folder "code".
+During training, sample images will be saved into a subfolder of the folder "code".
 
 The implementation was written by Aladdin Persson (https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/ProGAN)
 Slight changes were made to fit it to my usecase. More information regarding that in the assignment2.pdf. 
