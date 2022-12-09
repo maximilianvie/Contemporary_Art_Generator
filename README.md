@@ -8,8 +8,9 @@ Information in the assignment 1 PDF
 Please read the assignment2.pdf to get and overview of what was done for this exercise. 
 
 ## Run the model:
-Simply run the train.py file in the code folder.
-The model can be configured in the config.py file. (e.g. set Load_Model = True) 
+First, install the libraries documented in requirements.txt. 
+Next, configure the config.py file as wished. (e.g. set Load_Model = True) 
+Then simply run the train.py file in the code folder.
 
 If you want to train the model, images must be present in the test folder. I added some images of my collected dataset. 
 
