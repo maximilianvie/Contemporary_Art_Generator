@@ -23,3 +23,6 @@ Slight changes were made to fit it to my usecase. More information regarding tha
 
 ## Run the preprocessing pipeline:
 Change the load and save directories accordingly, set custom crop parameters and run it. 
+
+## Pretrained Models
+I added my pretrained models to the code folder. You can use them if you want to test training on the ProGAN. Therefore specify in the config file to load the model. It is recommended to start training at 128x128, since the models are trained until this format. The generator.pth and critic.pth files in the code folder represent the model, which I trained on the full dataset. (mentioned in assignment2.pdf) The files in the "abstract_dataset_model" folder represent the model which I trained only on the abstract art pieces. 
